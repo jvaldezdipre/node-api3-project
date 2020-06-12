@@ -21,7 +21,7 @@ server.use('/api/posts', postRouter);
 server.use('/api/users', userRouter);
 
 server.get('/', (req, res) => {
-  res.send('<Hello Deployed Heroku app please work');
+  res.send('<h1>We Are Deployed</h1>');
 });
 
 module.exports = server;
